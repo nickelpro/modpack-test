@@ -1,0 +1,30 @@
+{
+  "name": "modtest2",
+  "version": "0.0.1",
+  "description": "yep",
+  "homepage": "",
+  "maintainers": [
+    "Vito Gamberini <vito@gamberini.email>"
+  ],
+  "license": "CC0-1.0",
+  "dependencies": [
+    "modlib"
+  ],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "git",
+      "baseline": "c6d6efed3e9b4242765bfe1b5c5befffd85f7b92",
+      "repository": "https://github.com/microsoft/vcpkg.git"
+    },
+    "registries": [
+      {
+        "kind": "git",
+        "baseline": "0daf38927a90ab7d315e50eb5b09ebad65bd9c7a",
+        "repository": "https://github.com/nickelpro/vito-reg.git",
+        "packages": [
+          "modlib"
+        ]
+      }
+    ]
+  }
+}
